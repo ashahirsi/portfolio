@@ -1,9 +1,13 @@
-.nav {
-    --offset: var(--space);
-    /* ... */
-    position: sticky;
-    top: var(--offset);
-  }
+
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.container {
+    width: 500px;
+}
+/* NAV BAR starts here*/
+.nav {
+    background-color: rgba (239 146 115);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
 }
