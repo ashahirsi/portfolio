@@ -1,3 +1,9 @@
-. {
-    color: red;
+.nav {
+    --offset: var(--space);
+    /* ... */
+    position: sticky;
+    top: var(--offset);
+  }
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif, Verdana, sans-serif;
 }
