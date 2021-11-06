@@ -1,13 +1,13 @@
+* body {
+    width: 600px;
+    margin: 0 auto;
+    background: #ef9273;
+    text-align: center;
+}
 
-* {
-    font-family: 'Playfair Display', serif;
-}
-.container {
-    width: 500px;
-}
-/* NAV BAR starts here*/
 .nav {
-    background-color: rgba (239 146 115);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium
+    position: fixed; 
+    top: 10vh;
+    left: 1vh;
+    width: 40px;
 }
