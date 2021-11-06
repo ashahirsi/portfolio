@@ -1,13 +1,48 @@
 * body {
     width: 600px;
     margin: 0 auto;
-    background: #ef9273;
+    background: white;
     text-align: center;
 }
 
+/*NAV BAR*/
+
+.nav {
+    margin:20px;
+    box-sizing:content-box;
+    width: 100%;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
 .nav {
     position: fixed; 
     top: 10vh;
     left: 1vh;
     width: 40px;
 }
+.nav li {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+    width: 300%;
+}
+.nav li {
+    padding: 0.25em 1.5em;
+    background-color: #E5BFA1;
+    border-top-right-radius: 1em 1em;
+    border-top-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    text-decoration: none;
+}
+.nav li:hover, nav ul li a:focus {
+    background-color:#AB8C71;
+    font-weight: bold;
+  }
+
+/*HOME*/
+/*ABOUT ME*/
+/*PROJECTS*/
+/*CONTACT*/
+/*FOOTER*/
