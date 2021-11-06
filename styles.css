@@ -1,5 +1,6 @@
 * body {
-    width: 600px;
+    width: 100%;
+    min-width: 100%;
     margin: 0 auto;
     background: white;
     text-align: center;
@@ -19,6 +20,7 @@
     top: 10vh;
     left: 1vh;
     width: 40px;
+    
 }
 .nav li {
     margin: 0px;
